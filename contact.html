@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us — Excel Ventures</title>
+  <meta name="description" content="Get in touch with Excel Ventures. Visit us at 21 Itire Road, Surulere, call +234 802 596 0188, or send a message." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="contact">
+
+  <header class="site-header">
+    <div class="site-header__bar">
+      <a href="index.html" class="brand">Excel <em>Ventures</em></a>
+      <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">
+        <span class="nav-toggle__bars"></span>
+      </button>
+      <nav id="primary-nav" class="nav-menu" data-nav-menu aria-label="Primary">
+        <a href="index.html" data-page="home">Home</a>
+        <a href="about.html" data-page="about">About Us</a>
+        <a href="contact.html" data-page="contact" class="nav-menu__cta">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="border-bottom: 1px solid var(--hairline); padding-bottom: 3rem;">
+      <div class="hero__inner">
+        <div class="hero__rule" aria-hidden="true"></div>
+        <div>
+          <span class="eyebrow">Get in touch</span>
+          <h1 style="max-width: 16ch;">Let's get your wardrobe sorted.</h1>
+          <p class="hero__lede">Visit the showroom, call us directly, or send a message and a member of our team will get back to you.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="tape-wrap"><div class="tape" data-tape="40" role="presentation"></div></div>
+
+    <section>
+      <div class="contact-grid">
+        <div class="contact-info" data-reveal>
+          <span class="eyebrow">Showroom &amp; details</span>
+          <dl>
+            <div>
+              <dt>Address</dt>
+              <dd>21 Itire Road, Surulere, Lagos</dd>
+            </div>
+            <div>
+              <dt>Phone</dt>
+              <dd><a href="tel:+2348025960188">+234 802 596 0188</a></dd>
+            </div>
+            <div>
+              <dt>Hours</dt>
+              <dd>Monday – Saturday, 10:00 – 19:00</dd>
+            </div>
+            <div>
+              <dt>Service areas</dt>
+              <dd>Lagos &amp; Abuja</dd>
+            </div>
+          </dl>
+          <div class="map" role="img" aria-label="Map placeholder for 21 Itire Road, Surulere">
+            <span>Map placeholder</span>
+          </div>
+        </div>
+
+        <div data-reveal="2">
+          <span class="eyebrow">Send a message</span>
+          <h2 style="font-size: clamp(1.6rem, 3vw, 2rem); font-weight: 500; margin-top: 0.8rem;">We typically reply within one business day.</h2>
+          <form class="contact-form" data-contact-form style="margin-top: 2rem;" novalidate>
+            <div class="form-field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" autocomplete="name" placeholder="Your name" />
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone number</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="+234 ..." />
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell us what you're looking for"></textarea>
+            </div>
+            <button type="submit" class="btn btn--solid">Send message</button>
+            <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__top">
+      <div class="site-footer__col">
+        <h4>Excel Ventures</h4>
+        <p>Luxury menswear for Lagos &amp; Abuja.</p>
+      </div>
+      <div class="site-footer__col">
+        <h4>Visit</h4>
+        <p>21 Itire Road, Surulere</p>
+      </div>
+      <div class="site-footer__col">
+        <h4>Reach us</h4>
+        <a href="tel:+2348025960188">+234 802 596 0188</a>
+        <a href="contact.html">Contact form</a>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span>&copy; <span data-year>2026</span> Excel Ventures. All rights reserved.</span>
+      <span>Lagos · Abuja</span>
+    </div>
+  </footer>
+
+  <script type="module" src="dist/main.js"></script>
+</body>
+</html>
+
